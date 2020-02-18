@@ -8,7 +8,7 @@ function selectingOddNumbers(elementsList)
     for(let index = 0; index<elementsList.length; index++)
     {
         if(isOdd(elementsList[index]))
-            OddNumbers.splice(index,1);
+            elementsList.splice(index,1);
     }
 }
 function printOddNumbers()
