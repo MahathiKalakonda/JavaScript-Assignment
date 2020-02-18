@@ -1,13 +1,14 @@
 function computeReverseFibonacci(fiboLength)
 {
-    let fiboSeries = [1,0],loopTurns = fiboLength - fiboSeries.length;
+    let reverseFibo = [];
+    reverseFibo[0] = 1, reverseFibo[1] = 0, loopTurns = fiboLength - reverseFibo.length;
     for(let index = 0; index < loopTurns; index++)
     {
 
-        let newElement = fiboSeries[0] + fiboSeries[1];
-        fiboSeries.unshift(newElement);
+        let newElement = reverseFibo[0] + reverseFibo[1];
+        reverseFibo.unshift(newElement);
     }
-    return fiboSeries;
+    return reverseFibo;
 }
 
 function printList()
