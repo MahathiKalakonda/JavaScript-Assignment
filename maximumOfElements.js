@@ -1,4 +1,4 @@
-function getMaximumOf2(number1,number2)
+function getMaximum(number1,number2)
 {
     if(number1 > number2)
         return number1;
