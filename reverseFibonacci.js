@@ -1,7 +1,7 @@
 function computeReverseFibonacci(fiboLength)
 {
-    let reverseFibo = [];
-    reverseFibo[0] = 1, reverseFibo[1] = 0, loopTurns = fiboLength - reverseFibo.length;
+    let reverseFibo = [], loopTurns = fiboLength - reverseFibo.length;;
+    reverseFibo[0] = 1, reverseFibo[1] = 0;
     for(let index = 0; index < loopTurns; index++)
     {
 
