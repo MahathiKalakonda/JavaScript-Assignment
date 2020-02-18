@@ -1,4 +1,4 @@
-function getMinimumOf2(number1,number2)
+function getMinimum(number1,number2)
 {
     if(number1 < number2)
         return number1;
