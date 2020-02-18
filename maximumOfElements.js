@@ -17,5 +17,5 @@ function printMaximum()
 {
     console.log("Maximum element is : " + maximumOfList);
 }
-var maximumOfList = getMaximumElement([2,10,'abc',202,19,25,36]);
+var maximumOfList = getMaximumElement([2,10,202,19,25,36]);
 printMaximum()
