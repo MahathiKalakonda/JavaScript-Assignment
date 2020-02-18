@@ -1,13 +1,12 @@
 function isOdd(number)
 {
-    returnValue = [false,true];
-    return returnValue[number%2];
+    return number%2!=0;
 }
 
 function computeNumberOfOdds(elements)
 {
     let numberOfOdds = 0;
-    for(let index=0; index < elements.length; index++)
+    for(let index = 0; index < elements.length; index++)
     {
         if(isOdd(elements[index]))
             numberOfOdds++;
