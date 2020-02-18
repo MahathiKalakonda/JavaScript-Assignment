@@ -17,7 +17,7 @@ function computeNumberOfEvens(elements)
 
 function printEvensCount()
 {
-    console.log("Number of even numbers is : " + evensCount);
+    console.log("Number of even numbers is: " + evensCount);
 }
 
 var evensCount = computeNumberOfEvens([10,12,15,201,24,12,19,29,30]);

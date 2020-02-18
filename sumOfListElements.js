@@ -10,7 +10,7 @@ function addingListElements(elements)
 
 function printSum()
 {
-    console.log("Sum of elements in the list is : "+sumOfNumbers);
+    console.log("Sum of elements in the list is: "+sumOfNumbers);
 }
 
 var sumOfNumbers = addingListElements([5,9,10,12]);

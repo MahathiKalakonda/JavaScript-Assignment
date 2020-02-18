@@ -17,7 +17,7 @@ function getMinimumElement(elements)
 
 function printMinimum()
 {
-    console.log("Minimum element is : " + minimumOfList);
+    console.log("Minimum element is: " + minimumOfList);
 }
 
 var minimumOfList = getMinimumElement([2,10,202,19,25,36]);

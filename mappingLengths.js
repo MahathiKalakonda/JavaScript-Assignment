@@ -10,7 +10,7 @@ function computeLengthsArray(elements)
 
 function printLengthsOfElements()
 {
-    console.log("Array of lengths of elements is : " + lengthsList);
+    console.log("Array of lengths of elements is: " + lengthsList);
 }
 
 lengthsList = computeLengthsArray(["Mahathi", "Java", "Python", "Github", "Lengths"]);

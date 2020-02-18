@@ -17,7 +17,7 @@ function computeNumberOfOdds(elements)
 
 function printOddsCount()
 {
-    console.log("Number of odd numbers is : " + oddsCount);
+    console.log("Number of odd numbers is: " + oddsCount);
 }
 
 var oddsCount = computeNumberOfOdds([10,12,15,201,24,12,19,29]);

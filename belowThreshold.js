@@ -18,7 +18,7 @@ function getBelowThresholdCount(elements, threshold)
 
 function printCount()
 {
-    console.log("Number of elemets below threshold is : " + belowThresholdCount)
+    console.log("Number of elemets below threshold is: " + belowThresholdCount)
 }
 
 var belowThresholdCount = getBelowThresholdCount([10,5,24,32,19,8,29],11);

@@ -17,7 +17,7 @@ function selectingOddNumbers(elementsList)
 
 function printOddNumbers()
 {
-    console.log("Odd numbers are : "+oddNumbers);
+    console.log("Odd numbers are :"+oddNumbers);
 }
 
 var oddNumbers = selectingOddNumbers([5,3,1,2,6,9,12,18,19]);

@@ -17,7 +17,7 @@ function computeAverage(elements)
 
 function printAverage()
 {
-    console.log("Average of elements in the list is : " + averageOfNumbers);
+    console.log("Average of elements in the list is: " + averageOfNumbers);
 }
 
 var averageOfNumbers = computeAverage([5,9,10,12,13]);

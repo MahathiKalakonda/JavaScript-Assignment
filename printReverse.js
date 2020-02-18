@@ -7,4 +7,4 @@ function printReverse(elements)
     }
 }
 
-printReverse([5,'Mahathi',91,2016,2020]);
+printReverse([5, 'Mahathi', 91, 2016, 2020]);

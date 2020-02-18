@@ -12,7 +12,7 @@ function computeReverseFibonacci(fiboLength)
 
 function printList()
 {
-    console.log("Fibonacci series in reverse order  is : " + reverseFibonacci);
+    console.log("Fibonacci series in reverse order  is: " + reverseFibonacci);
 }
 
 let reverseFibonacci = computeReverseFibonacci(10);
