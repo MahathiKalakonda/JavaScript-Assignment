@@ -5,7 +5,7 @@ function isEven(number)
 }
 function selectingEvenNumbers(elementsList)
 {
-    let evenNumbersList
+    let evenNumbersList = [];
     for(let index = 0; index < elementsList.length; index++)
     {
         if(isEven(elementsList[index]))
@@ -13,7 +13,7 @@ function selectingEvenNumbers(elementsList)
     }
     return evenNumbersList
 }
-function printOddNumbers()
+function printEvenNumbers()
 {
     console.log("Even Numbers are : "+evenNumbers);
 }

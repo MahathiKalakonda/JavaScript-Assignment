@@ -3,17 +3,18 @@ function isOdd(number)
     returnValue = [false,true];
     return returnValue[number%2];
 }
-function selectingOddNumbers(elementsList)
+function selectingOddNumbers()
 {
-    for(let index = 0; index<elementsList.length; index++)
+    for(let index = 0; index<oddNumbers.length; index++)
     {
-        if(isOdd(elementsList[index]))
-            elementsList.splice(index,1);
+        if(!isOdd(oddNumbers[index]))
+            oddNumbers.splice(index,1);
     }
 }
 function printOddNumbers()
 {
-    console.log("Odd Numbers are : "+OddNumbers);
+    console.log("Odd Numbers are : "+oddNumbers);
 }
-var OddNumbers = selectingOddNumbers([5,3,1,2,6,9,12,18,19])
+var oddNumbers = [5,3,1,2,6,9,12,18,19];
+selectingOddNumbers(oddNumbers);
 printOddNumbers()
