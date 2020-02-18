@@ -17,5 +17,5 @@ function printEvenNumbers()
 {
     console.log("Even Numbers are : "+evenNumbers);
 }
-var evenNumbers = selectingEvenNumbers([5,3,1,2,6,9,12,18,19])
-printEvenNumbers()
+var evenNumbers = selectingEvenNumbers([5,3,1,2,6,9,12,18,19]);
+printEvenNumbers();
