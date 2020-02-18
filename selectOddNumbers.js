@@ -1,7 +1,6 @@
 function isOdd(number)
 {
-    returnValue = [false,true];
-    return returnValue[number%2];
+    return number%2!=0;
 }
 
 function selectingOddNumbers(elementsList)
