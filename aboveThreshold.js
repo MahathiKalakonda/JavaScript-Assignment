@@ -4,6 +4,7 @@ function isAboveThreshold(element, threshold)
         return true;
     return false;
 }
+
 function getAboveThresholdCount(elements, threshold)
 {
     let countAboveThreshold = 0;
@@ -14,9 +15,11 @@ function getAboveThresholdCount(elements, threshold)
     }
     return countAboveThreshold;
 }
+
 function printCount()
 {
     console.log("Number of elemets above threshold is : " + aboveThresholdCount)
 }
+
 var aboveThresholdCount = getAboveThresholdCount([10,5,24,32,19,8,29],11);
 printCount();

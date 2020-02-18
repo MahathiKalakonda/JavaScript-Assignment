@@ -7,9 +7,11 @@ function computeLengthsArray(elements)
     }
     return listOfLengths;
 }
+
 function printLengthsOfElements()
 {
     console.log("Array of lengths of elements is : " + lengthsList);
 }
+
 lengthsList = computeLengthsArray(["Mahathi", "Java", "Python", "Github", "Lengths"]);
 printLengthsOfElements()

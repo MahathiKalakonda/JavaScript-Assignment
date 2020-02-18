@@ -7,15 +7,18 @@ function addListElements(elements)
     }
     return sum;
 }
+
 function computeAverage(elements)
 {
     let sumOfElements = addListElements(elements)
     let average = sumOfElements / elements.length
     return average;
 }
+
 function printAverage()
 {
     console.log("Average of elements in the list is : " + averageOfNumbers);
 }
+
 var averageOfNumbers = computeAverage([5,9,10,12,13]);
 printAverage();

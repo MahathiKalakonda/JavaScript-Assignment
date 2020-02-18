@@ -7,9 +7,11 @@ function selectAlternateElements(elements)
     }
     return alternateElements;
 }
+
 function printList()
 {
     console.log("Alternate elements of the list are "+alternateElements);
 }
+
 var alternateElements = selectAlternateElements([2,15,19,2019,25,32,15]);
 printList()

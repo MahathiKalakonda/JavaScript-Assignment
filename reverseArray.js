@@ -7,9 +7,11 @@ function getReverseArray(elements)
     }
     return reversedList;
 }
+
 function printReverseList()
 {
     console.log("The reversed array is : " + reverseList)
 }
+
 var reverseList = getReverseArray([90,12,19,2,34,91,10]);
 printReverseList();

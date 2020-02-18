@@ -7,9 +7,11 @@ function addingListElements(elements)
     }
     return sum;
 }
+
 function printSum()
 {
     console.log("Sum of elements in the list is : "+sumOfNumbers);
 }
+
 var sumOfNumbers = addingListElements([5,9,10,12]);
 printSum();

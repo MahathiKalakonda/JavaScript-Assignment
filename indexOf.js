@@ -7,9 +7,11 @@ function getPositionOf(list, keyElement)
     }
     return -1;
 }
+
 function printPosition()
 {
     console.log("The index of the element in the list is : " + position);
 }
+
 var position = getPositionOf([10,19,13,12,9,13,24],13);
 printPosition();

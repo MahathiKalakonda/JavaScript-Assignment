@@ -9,9 +9,11 @@ function computeReverseFibonacci(fiboLength)
     }
     return fiboSeries;
 }
+
 function printList()
 {
     console.log("Fibonacci series in reverse order  is : " + reverseFibonacci);
 }
+
 let reverseFibonacci = computeReverseFibonacci(10);
 printList();
