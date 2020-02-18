@@ -1,35 +1,19 @@
-function getListLength()
-{
-    var listLength = prompt("Please enter the length of the list", "");
-}
-function getListElements()
-{
-    var Elements
-    console.log("Enter the elements");
-    for(let index = 0; index<listLength; index++)
-    {
-        Elements[index]=prompt();
-    }
-}
 function isOdd(number)
 {
     returnValue = [false,true];
     return returnValue[number%2];
 }
-function selectingOddNumbers()
+function selectingOddNumbers(elementsList)
 {
-    var OddNumbers;
-    for(let index = 0; index<listLength; index++)
+    for(let index = 0; index<elementsList.length; index++)
     {
-        if(isOdd(Elements[index]))
-            OddNumbers.push(Elements[index]);
+        if(isOdd(elementsList[index]))
+            OddNumbers.splice(index,1);
     }
 }
 function printOddNumbers()
 {
     console.log("Odd Numbers are : "+OddNumbers);
 }
-getListLength()
-getListElements()
-selectingOddNumbers()
+var OddNumbers = selectingOddNumbers([5,3,1,2,6,9,12,18,19])
 printOddNumbers()
