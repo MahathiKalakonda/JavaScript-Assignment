@@ -1,7 +1,6 @@
 function isEven(number)
 {
-    returnValue = [true,false];
-    return returnValue[number%2];
+    return number%2==0;
 }
 
 function selectingEvenNumbers(elementsList)
