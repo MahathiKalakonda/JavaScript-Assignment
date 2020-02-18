@@ -13,5 +13,5 @@ function printList()
 {
     console.log("Fibonacci series in reverse order  is : " + reverseFibonacci);
 }
-var reverseFibonacci = computeReverseFibonacci(10);
+let reverseFibonacci = computeReverseFibonacci(10);
 printList();
