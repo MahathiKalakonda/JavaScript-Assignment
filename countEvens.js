@@ -1,13 +1,12 @@
 function isEven(number)
 {
-    returnValue = [true,false];
-    return returnValue[number%2];
+    return number%2==0;
 }
 
 function computeNumberOfEvens(elements)
 {
     let numberOfEvens = 0;
-    for(let index=0; index < elements.length; index++)
+    for(let index = 0; index < elements.length; index++)
     {
         if(isEven(elements[index]))
             numberOfEvens++;
