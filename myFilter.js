@@ -5,11 +5,11 @@ function isEven(element)
 
 function myFilter(callBack, array)
 {
-    let filteredArray = [];
-    for(let index = 0; index < array.length; index++)
+    let filteredArray = [], currentValue = array[0];
+    for(let currentIndex = 0; currentIndex < array.length; currentIndex++, currentValue = array[currentIndex])
     {
-        if(callBack(array[index]))
-            filteredArray.push(array[index]);
+        if(callBack(currentValue, currentIndex, array))
+            filteredArray.push(currentValue);
     }
     return filteredArray;
 }
