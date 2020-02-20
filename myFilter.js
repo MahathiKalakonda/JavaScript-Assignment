@@ -1,6 +1,6 @@
 function isEven(element)
 {
-    return element%2 == 0;
+    return element % 2 == 0;
 }
 
 function myFilter(callBack, array)
