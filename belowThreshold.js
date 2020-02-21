@@ -21,5 +21,10 @@ function printCount()
     console.log("Number of elemets below threshold is: " + belowThresholdCount)
 }
 
-var belowThresholdCount = getBelowThresholdCount([10,5,24,32,19,8,29],11);
+array = [10, 5, 24, 32, 19, 8, 29];
+var belowThresholdCount = getBelowThresholdCount(array, 11);
 printCount();
+
+var elementsBelowThreshold = array.filter(number => number < 11);
+var resultBelowCount = elementsBelowThreshold.length;
+console.log("Number of elements below threshold using filter is : " + resultBelowCount);
