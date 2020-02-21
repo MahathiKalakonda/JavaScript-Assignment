@@ -8,4 +8,14 @@ function isInDescending(list)
     return true;
 }
 
-console.log(isInDescending([32,28,15,13,10,8]));
+function isFirstGreater(currentValue, currentIndex, array)
+{
+    if(array[currentIndex + 1])
+        return currentValue > array[currentIndex + 1];
+    return true;
+}
+var array = [32, 28, 15, 13, 10, 8];
+console.log(isInDescending(array));
+
+var isListInDescending = array.every(isFirstGreater);
+console.log("Using every method : " + isListInDescending);
