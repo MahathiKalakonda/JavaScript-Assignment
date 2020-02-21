@@ -13,5 +13,14 @@ function printList()
     console.log("Alternate elements of the list are : "+alternateElements);
 }
 
-var alternateElements = selectAlternateElements([2,15,19,2019,25,32,15]);
-printList()
+function isIndexEven(currentValue, currentIndex)
+{
+    return currentIndex % 2 == 0;
+}
+
+array = [2, 15, 19, 2019, 25, 32, 15];
+var alternateElements = selectAlternateElements(array);
+printList();
+
+var alternateNumbers = array.filter(isIndexEven);
+console.log("Alternate numbers using filter are : " + alternateNumbers);
