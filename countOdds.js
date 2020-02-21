@@ -19,5 +19,10 @@ function printOddsCount()
     console.log("Number of odd numbers is: " + oddsCount);
 }
 
-var oddsCount = computeNumberOfOdds([10,12,15,201,24,12,19,29]);
+array = [10, 12, 15, 201, 24, 12, 19, 29];
+var oddsCount = computeNumberOfOdds(array);
 printOddsCount();
+
+var resultOddNumbers = array.filter(number => number % 2 != 0);
+var resultantOddCount = resultOddNumbers.length
+console.log("Number of odd numbers using filter is : " + resultantOddCount);
