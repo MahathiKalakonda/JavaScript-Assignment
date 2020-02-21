@@ -19,5 +19,10 @@ function printEvensCount()
     console.log("Number of even numbers is: " + evensCount);
 }
 
-var evensCount = computeNumberOfEvens([10,12,15,201,24,12,19,29,30]);
+array = [10, 12, 15, 201, 24, 12, 19, 29, 30];
+var evensCount = computeNumberOfEvens(array);
 printEvensCount();
+
+var resultEvenNumbers = array.filter(number => number % 2 == 0);
+var resultantEvenCount = resultEvenNumbers.length
+console.log("Number of even numbers using filter is : " + resultantEvenCount);
