@@ -19,5 +19,9 @@ function printOddNumbers()
     console.log("Odd numbers are :"+oddNumbers);
 }
 
-var oddNumbers = selectingOddNumbers([5,3,1,2,6,9,12,18,19]);
+array = [5, 3, 1, 2, 6, 9, 12, 18, 19];
+var oddNumbers = selectingOddNumbers(array);
 printOddNumbers();
+
+var resultOddNumbers = array.filter(number => number % 2 != 0);
+console.log("Odd numbers using filter are : " + resultOddNumbers);
