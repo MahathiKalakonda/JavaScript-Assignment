@@ -13,5 +13,9 @@ function printSum()
     console.log("Sum of elements in the list is: "+sumOfNumbers);
 }
 
-var sumOfNumbers = addingListElements([5,9,10,12]);
+var array = [5, 9, 10, 12];
+var sumOfNumbers = addingListElements(array);
 printSum();
+
+var sumOfElements = array.reduce((accumulator, currentValue) => accumulator + currentValue);
+console.log("sum of elements with reduce function is : "+ sumOfElements);
