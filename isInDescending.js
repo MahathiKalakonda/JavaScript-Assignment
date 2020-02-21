@@ -14,6 +14,7 @@ function isFirstGreater(currentValue, currentIndex, array)
         return currentValue > array[currentIndex + 1];
     return true;
 }
+
 var array = [32, 28, 15, 13, 10, 8];
 console.log(isInDescending(array));
 
