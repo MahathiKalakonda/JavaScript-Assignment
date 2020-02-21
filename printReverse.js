@@ -7,4 +7,13 @@ function printReverse(elements)
     }
 }
 
-printReverse([5, 'Mahathi', 91, 2016, 2020]);
+function printReverseArray(currentValue, currentIndex, array)
+{
+    let index = array.length - currentIndex - 1;
+    console.log(array[index]);
+}
+
+array = [5, 'Mahathi', 91, 2016, 2020];
+printReverse(array);
+console.log("List in reverse order using map function is : ")
+array.map(printReverseArray);
