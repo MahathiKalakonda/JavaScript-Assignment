@@ -20,5 +20,10 @@ function printAverage()
     console.log("Average of elements in the list is: " + averageOfNumbers);
 }
 
-var averageOfNumbers = computeAverage([5,9,10,12,13]);
+array = [5, 9, 10, 12, 13];
+var averageOfNumbers = computeAverage(array);
 printAverage();
+
+var sumOfElements = array.reduce((accumulator, currentValue) => accumulator + currentValue);
+var averageOfElements = sumOfElements / array.length;
+console.log("Average of elements using reduce function is : " + averageOfElements);
