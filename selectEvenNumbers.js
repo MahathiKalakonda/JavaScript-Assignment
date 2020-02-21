@@ -19,5 +19,9 @@ function printEvenNumbers()
     console.log("Even Numbers are :"+evenNumbers);
 }
 
-var evenNumbers = selectingEvenNumbers([5,3,1,2,6,9,12,18,19]);
+array = [5, 3, 1, 2, 6, 9, 12, 18, 19];
+var evenNumbers = selectingEvenNumbers(array);
 printEvenNumbers();
+
+var resultEvenNumbers = array.filter(number => number % 2 == 0);
+console.log("Even numbers using filter are : " + resultEvenNumbers);
