@@ -18,8 +18,13 @@ function getAboveThresholdCount(elements, threshold)
 
 function printCount()
 {
-    console.log("Number of elemets above threshold is: " + aboveThresholdCount)
+    console.log("Number of elements above threshold is: " + aboveThresholdCount);
 }
 
-var aboveThresholdCount = getAboveThresholdCount([10,5,24,32,19,8,29],11);
+array = [10, 5, 24, 32, 19, 8, 29];
+var aboveThresholdCount = getAboveThresholdCount(array, 11);
 printCount();
+
+var elementsAboveThreshold = array.filter(number => number > 11);
+var resultAboveCount = elementsAboveThreshold.length;
+console.log("Number of elements above threshold using filter is : " + resultAboveCount);
